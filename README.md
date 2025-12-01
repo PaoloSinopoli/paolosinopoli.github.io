@@ -1,1 +1,93 @@
-# paolosinopoli.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paolo L. Sinopoli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Paolo L. Sinopoli - RNA Research"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div>
+        <h1 class="title">Paolo Sinopoli</h1>
+        <p class="subtitle">RNA Research</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#readings">Readings</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Hero -->
+      <section class="hero">
+        <p class="hero-line">
+          Placeholder
+        </p>
+        <p class="hero-muted">
+          Currently: Placeholder
+        </p>
+        <div class="hero-links">
+          <a class="btn" href="-" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a class="btn secondary" href="-" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <p>
+          Placeholder 2
+        </p>
+        <p>
+          Placeholder 3
+        </p>
+      </section>
+
+      <!-- Work / Experience -->
+      <section id="work" class="section">
+        <h2 class="section-title">Selected Research</h2>
+        <div class="cards">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39938518/" target="_blank" rel="noreferrer" class="card card-link">
+            <h3 class="card-title">Free introns of tRNAs as complementarity-dependent regulators of gene expression</h3>
+            <p class="card-meta">Lab</p>
+            <p class="card-body">
+              Description
+            </p>
+          </a>
+
+          <a href="link2" class="card card-link">
+            <h3 class="card-title">paper 2</h3>
+            <p class="card-meta">lab</p>
+            <p class="card-body">
+              Description
+            </p>
+          </a>
+        </div>
+      </section>
+
+<footer class="footer">
+      <p>© <span id="year"></span> Paolo Sinopoli</p>
+    </footer>
+  </div>
+
+  <script>
+    // simple dynamic year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
