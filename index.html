@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | ML & Research Engineer</title>
+  <style>
+    :root {
+      --bg: #000000;
+      --fg: #ffffff;
+      --muted: #b0b0b0;
+      --accent: #60a5fa;
+      --border: #333333;
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 1.75rem 1.25rem 2.5rem;
+    }
+
+    header {
+      margin-bottom: 1.75rem;
+    }
+
+    .name {
+      font-size: 2rem;
+      font-weight: 650;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.25rem;
+      color: var(--fg);
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: var(--muted);
+      margin: 0 0 1rem;
+    }
+
+    nav {
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    nav a {
+      margin-right: 1.25rem;
+      position: relative;
+      padding-bottom: 0.08rem;
+      color: var(--fg);
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 1px;
+      background: var(--accent);
+      transition: width 0.18s ease-out;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    .intro {
+      margin-top: 1.5rem;
+      font-size: 0.98rem;
+    }
+
+    .intro p {
+      margin: 0 0 0.45rem;
+    }
+
+    .social {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    .social a {
+      color: var(--accent);
+    }
+
+    .social a + span,
+    .social span + a {
+      margin-left: 0.35rem;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    section {
+      margin-top: 2.25rem;
+    }
+
+    section:first-of-type {
+      margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 0.6rem;
+      color: var(--fg);
+    }
+
+    .section-text {
+      font-size: 0.95rem;
+      color: var(--fg);
+    }
+
+    .item {
+      margin-top: 0.75rem;
+      padding: 0.75rem 0.85rem;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: #111111;
+    }
+
+    .item-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin: 0 0 0.15rem;
+      color: var(--fg);
+    }
+
+    .item-meta {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin: 0 0 0.4rem;
+    }
+
+    .item-desc {
+      font-size: 0.9rem;
+      margin: 0;
+      color: var(--fg);
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="container">
+
+      <header>
+        <h1 class="name">Your Name</h1>
+        <p class="tagline">ML & research engineer</p>
+
+        <nav>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#projects">Projects</a>
+          <a href="#notes">Paper notes</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="intro">
+          <p>
+            I work at the intersection of software engineering and research, focusing on machine learning and systems.
+          </p>
+          <p>
+            <strong>Currently:</strong> Your current role or degree · institution · main focus areas.
+          </p>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/your-handle" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span>·</span>
+          <a href="#contact">Email</a>
+        </div>
+      </header>
+
+      <main>
+        <section id="about">
+          <h2>About</h2>
+          <div class="section-text">
+            <p>
+              Write a concise overview of your background and what you work on. Mention the types of problems you enjoy and how you like to bridge research and engineering.
+            </p>
+            <p>
+              You can also include a sentence or two about broader interests outside of work or study.
+            </p>
+          </div>
+        </section>
+
+        <section id="work">
+          <h2>Selected Work</h2>
+          <div class="item">
+            <p class="item-title">Example role or project</p>
+            <p class="item-meta">Organization or lab · Dates</p>
+            <p class="item-desc">
+              One or two sentences summarizing what you did and what problems you worked on. Focus on your specific contributions.
+            </p>
+          </div>
+          <div class="item">
+            <p class="item-title">Another role or collaboration</p>
+            <p class="item-meta">Company or group · Dates</p>
+            <p class="item-desc">
+              Brief description of the system, product, or research question, and the parts you were responsible for.
+            </p>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="item">
+            <p class="item-title">Personal project name</p>
+            <p class="item-meta">Domain · Tech stack</p>
+            <p class="item-desc">
+              Describe the project, why you built it, and what is technically interesting about it. If open source, link to the repository.
+            </p>
+          </div>
+          <div class="item">
+            <p class="item-title">Another project</p>
+            <p class="item-meta">Domain · Tech stack</p>
+            <p class="item-desc">
+              Short description of a tool, prototype, or experiment that reflects your interests.
+            </p>
+          </div>
+        </section>
+
+        <section id="notes">
+          <h2>Paper notes</h2>
+          <p class="muted">
+            Paper notes coming soon. Use this section for reading notes, summaries, or a list of interesting papers once you are ready to add them.
+          </p>
+        </section>
+
+        <section id="writing">
+          <h2>Writing</h2>
+          <p class="muted">
+            More writing coming soon. You can link to posts, essays, or talks here when you have them.
+          </p>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="section-text">
+            <p>
+              The best way to reach me is by email. I am open to conversations about ML research, systems work, and interesting collaborations.
+            </p>
+            <p>
+              Email: <a href="mailto:you@example.com">you@example.com</a>
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        © <span id="year"></span> Your Name
+      </footer>
+
+    </div>
+  </div>
+
+  <script>
+    const yearSpan = document.getElementById("year");
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
