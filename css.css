@@ -165,7 +165,14 @@ a:hover {
     background-color: #eee;
 }
 
-.brianhie_link {
+.responsive-img {
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto;    /* Maintains the image's aspect ratio automatically */
+  display: block;  /* Helps center if needed and avoids extra space issues */
+  margin: 0 auto;  /* Optional: centers the image within its container */
+}
+
+.link {
     padding: 10px 14px 10px 14px;
     text-decoration: none;
     color: black;
@@ -175,7 +182,7 @@ a:hover {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
 }
 
-.brianhie_link:hover {
+.link:hover {
     background-color: #ccc;
 }
 
@@ -226,4 +233,5 @@ div.panel.show {
         margin-left: 20px;
     }
 }
+
 
