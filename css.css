@@ -14,12 +14,11 @@
 }
 
 .title_font {
-    font-family: "Work Sans", "Inconsolata", "Barlow", "Source Sans Pro", sans-serif;
-    /*font-family: "Roboto Mono", serif;*/
+    font-family: "Inconsolata", "Work Sans", "Barlow", "Source Sans Pro", sans-serif;
 }
 
 .sans_font {
-    font-family: "Work Sans", "Inconsolata", "Barlow", "Source Sans Pro", sans-serif;
+    font-family: "Inconsolata", "Work Sans", "Barlow", "Source Sans Pro", sans-serif;
     font-weight: 300;
 }
 
@@ -55,6 +54,7 @@ a {
     outline: 0;
     font-weight: 600;
 }
+
 
 
 
