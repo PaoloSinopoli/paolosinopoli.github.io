@@ -11,7 +11,8 @@ html {
 .title {
     text-align: left;
     font-size: clamp(28px, 6vw, 40px);
-    margin: clamp(40px, 8vw, 80px) 0 30px 0;
+    margin-top: clamp(32px, 6vw, 64px);
+    margin-bottom: 12px;
     color: #000000db;
     font-weight: 600;
     line-height: 1.2;
@@ -59,6 +60,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
 
