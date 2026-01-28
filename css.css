@@ -4,13 +4,24 @@
     padding-right: 12px;
 }
 
+html {
+    font-size: clamp(16px, 1.2vw, 18px);
+}
+
 .title {
     text-align: left;
-    font-size: 40px;
-    margin: 80px 0 30px 0;
+    font-size: clamp(28px, 6vw, 40px);
+    margin: clamp(40px, 8vw, 80px) 0 30px 0;
     color: #000000db;
     font-weight: 600;
-    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.body {
+    font-size: clamp(16px, 2.5vw, 20px);
+    margin: 0 0 30px 0;
+    line-height: 1.48;
+    font-weight: 300;
 }
 
 .title_font {
@@ -22,22 +33,12 @@
     font-weight: 300;
 }
 
-.body {
-    font-size: 20px;
-    margin: 0 0 30px 0;
-    line-height: 148%;
-    font-weight: 300;
-}
 
 .responsive-img {
   max-width: 100%;
   height: auto; 
   display: block; 
   margin: 0 auto;  
-}
-
-html {
-    background-color:
 }
 
 body {
@@ -58,6 +59,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
 
