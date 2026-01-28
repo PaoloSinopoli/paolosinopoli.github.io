@@ -48,12 +48,13 @@ b {
     font-weight: 400;
 }
 
-a {
-    color: #faa52f;
+hyperlink {
+    color: #8b2c2c;
     text-decoration: none;
     outline: 0;
-    font-weight: 600;
+    font-weight: 300;
 }
+
 
 
 
