@@ -49,7 +49,7 @@ b {
 }
 
 a {
-    color: #5a2a60;
+    color: #8b2c2c;
     text-decoration: none;
     outline: 0;
     font-weight: 400;
@@ -58,6 +58,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
 
