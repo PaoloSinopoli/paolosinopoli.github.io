@@ -12,7 +12,7 @@ html {
     text-align: left;
     font-size: clamp(28px, 6vw, 40px);
     margin-top: clamp(24px, 5vw, 48px);
-    margin-bottom: 6px;
+    margin-bottom: 3px;
     color: #000000db;
     font-weight: 600;
     line-height: 1.15;
@@ -64,6 +64,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
 
