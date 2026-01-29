@@ -26,7 +26,7 @@ html {
 }
 
 .body:first-of-type {
-    margin-top: 4px;
+    margin-top: 1px;
 }
 
 .title_font {
@@ -64,6 +64,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
 
