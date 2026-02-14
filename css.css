@@ -1,6 +1,7 @@
 .container {
     max-width: 700px;
     margin: 0 auto;
+    padding-left: 12px;
     padding-right: 12px;
 }
 
@@ -29,21 +30,16 @@ html {
     margin-top: 0px;
 }
 
-.title_font {
-    font-family: "Inconsolata", "Work Sans", "Barlow", "Source Sans Pro", sans-serif;
-}
-
-.sans_font {
+.site-font {
     font-family: "Inconsolata", "Work Sans", "Barlow", "Source Sans Pro", sans-serif;
     font-weight: 300;
 }
 
-
 .responsive-img {
-  max-width: 100%;
-  height: auto; 
-  display: block; 
-  margin: 0 auto;  
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 body {
@@ -57,7 +53,6 @@ b {
 a {
     color: #8b2c2c;
     text-decoration: none;
-    outline: 0;
     font-weight: 400;
 }
 
@@ -65,23 +60,17 @@ a:hover {
     text-decoration: underline;
 }
 
+a:focus-visible {
+    outline: 2px solid #8b2c2c;
+    outline-offset: 2px;
+}
 
+.linkedin-link {
+    vertical-align: middle;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.linkedin-icon {
+    height: 1em;
+    width: auto;
+    vertical-align: baseline;
+}
