@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,48 +13,41 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
 <body class="min-h-screen bg-white text-[#1a1a1a] text-[15px] leading-relaxed">
-  <div class="max-w-[720px] mx-auto px-6 py-12">
 
-    <!-- HOME -->
-    <div class="flex flex-col sm:flex-row gap-8 items-start mb-12">
+  <!-- NAV -->
+  <nav class="sticky top-0 bg-white border-b border-[#f0f0f0] z-50">
+    <div class="max-w-[720px] mx-auto px-6 py-3 flex gap-7 justify-end">
+      <a href="#about" class="text-[0.8rem] text-[#888] hover:text-[#1a1a1a] transition-colors" style="text-decoration: none;">About</a>
+      <a href="#publications" class="text-[0.8rem] text-[#888] hover:text-[#1a1a1a] transition-colors" style="text-decoration: none;">Publications</a>
+      <a href="#news" class="text-[0.8rem] text-[#888] hover:text-[#1a1a1a] transition-colors" style="text-decoration: none;">Latest News</a>
+      <a href="#contact" class="text-[0.8rem] text-[#888] hover:text-[#1a1a1a] transition-colors" style="text-decoration: none;">Contact</a>
+    </div>
+  </nav>
+
+  <div class="max-w-[720px] mx-auto px-6 py-12 pt-20">
+
+    <!-- HOME / ABOUT -->
+    <div id="about" class="flex flex-col sm:flex-row gap-10 items-start mb-14 scroll-mt-14">
       <img
         src="PLS_Headshot.png"
         alt="Paolo Leo Sinopoli"
-        class="w-36 h-36 rounded-md object-cover object-top shrink-0"
+        class="w-52 h-52 rounded-md object-cover object-top shrink-0"
       />
       <div class="flex-1 pt-1">
-        <h1 class="text-xl font-semibold text-[#1a1a1a] mb-1 tracking-tight">
+        <h1 class="text-xl font-semibold text-[#1a1a1a] mb-3 tracking-tight">
           Paolo Leo Sinopoli
         </h1>
-        <p class="text-[0.88rem] text-[#666] mb-3 leading-relaxed"></p>
-        <div class="flex flex-wrap gap-5">
-          <a
-            href="mailto:sinopoli.13@osu.edu"
-            class="flex items-center gap-1.5 text-sm text-[#888] hover:text-[#1a1a1a] transition-colors no-underline"
-            style="text-decoration: none;"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            sinopoli.13@osu.edu
-          </a>
-          <a
-            href="https://www.linkedin.com/in/paolo-sinopoli/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-1.5 text-sm text-[#888] hover:text-[#1a1a1a] transition-colors"
-            style="text-decoration: none;"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-            LinkedIn
-          </a>
-        </div>
+        <p class="text-[0.9rem] text-[#666] leading-relaxed">RNA Research @ Ohio State</p>
       </div>
     </div>
 
     <!-- PUBLICATIONS -->
-    <div class="mb-14">
+    <div id="publications" class="mb-14 scroll-mt-14">
       <p class="text-[0.75rem] uppercase tracking-widest text-[#1a1a1a] font-medium mb-6">Publications</p>
       <div class="flex flex-col gap-8">
 
@@ -109,7 +103,7 @@
     </div>
 
     <!-- NEWS -->
-    <div>
+    <div id="news" class="mb-14 scroll-mt-14">
       <p class="text-[0.75rem] uppercase tracking-widest text-[#1a1a1a] font-medium mb-6">Latest News</p>
 
       <!-- 2025 -->
@@ -222,6 +216,32 @@
       </div>
 
     </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="pt-8 scroll-mt-14">
+      <p class="text-[0.75rem] uppercase tracking-widest text-[#1a1a1a] font-medium mb-6">Contact</p>
+      <div class="flex flex-wrap gap-5">
+        <a
+          href="mailto:sinopoli.13@osu.edu"
+          class="flex items-center gap-1.5 text-sm text-[#888] hover:text-[#1a1a1a] transition-colors no-underline"
+          style="text-decoration: none;"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          sinopoli.13@osu.edu
+        </a>
+        <a
+          href="https://www.linkedin.com/in/paolo-sinopoli/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-1.5 text-sm text-[#888] hover:text-[#1a1a1a] transition-colors"
+          style="text-decoration: none;"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
