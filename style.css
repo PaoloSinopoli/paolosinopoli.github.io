@@ -72,6 +72,14 @@ main {
   margin-bottom: 1.5rem;
 }
 
+/* ─── Site title ────────────────────────────────────────────────────── */
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.5rem;
+}
+
 /* ─── About ─────────────────────────────────────────────────────────── */
 #about {
   margin-bottom: 3.5rem;
