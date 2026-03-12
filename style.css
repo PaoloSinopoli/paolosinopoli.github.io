@@ -74,10 +74,10 @@ main {
 
 /* ─── Site title ────────────────────────────────────────────────────── */
 .site-title {
-  font-size: 1.15rem;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 /* ─── About ─────────────────────────────────────────────────────────── */
