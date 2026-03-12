@@ -77,13 +77,13 @@ main {
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5rem;
 }
 
 /* ─── About ─────────────────────────────────────────────────────────── */
 #about {
   margin-bottom: 3.5rem;
-  scroll-margin-top: 3.5rem;
+  scroll-margin-top: 2rem;
 }
 
 .about-body {
@@ -96,7 +96,7 @@ main {
 /* ─── Publications ──────────────────────────────────────────────────── */
 #publications {
   margin-bottom: 3.5rem;
-  scroll-margin-top: 3.5rem;
+  scroll-margin-top: 2rem;
 }
 
 .pub-list {
