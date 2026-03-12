@@ -1,0 +1,195 @@
+/* ─── Reset & Base ─────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff;
+  color: #1a1a1a;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.15s ease;
+}
+
+/* ─── Layout ────────────────────────────────────────────────────────── */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ─── Navigation ────────────────────────────────────────────────────── */
+nav {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  z-index: 50;
+}
+
+.nav-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  gap: 1.75rem;
+  justify-content: flex-end;
+}
+
+.nav-inner a {
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: #999;
+}
+
+.nav-inner a:hover { color: #1a1a1a; }
+
+/* ─── Main content ──────────────────────────────────────────────────── */
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 3rem;
+}
+
+/* ─── Section label ─────────────────────────────────────────────────── */
+.section-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+/* ─── About ─────────────────────────────────────────────────────────── */
+#about {
+  margin-bottom: 3.5rem;
+  scroll-margin-top: 3.5rem;
+}
+
+.about-body {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.75;
+  max-width: 64ch;
+}
+
+/* ─── Publications ──────────────────────────────────────────────────── */
+#publications {
+  margin-bottom: 3.5rem;
+  scroll-margin-top: 3.5rem;
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pub-title {
+  font-size: 0.93rem;
+  color: #1a1a1a;
+  line-height: 1.45;
+  margin-bottom: 0.25rem;
+}
+
+.pub-authors {
+  font-size: 0.83rem;
+  color: #777;
+  line-height: 1.45;
+  margin-bottom: 0.2rem;
+}
+
+.pub-venue {
+  font-size: 0.83rem;
+  color: #999;
+  margin-bottom: 0.3rem;
+}
+
+.pub-link {
+  font-size: 0.78rem;
+  color: #aaa;
+}
+
+.pub-link:hover { color: #1a1a1a; text-decoration: underline; }
+
+/* ─── News ──────────────────────────────────────────────────────────── */
+#news {
+  margin-bottom: 3.5rem;
+  scroll-margin-top: 3.5rem;
+}
+
+.news-year {
+  margin-bottom: 2rem;
+}
+
+.news-year-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.news-row {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid #f0f0f0;
+  align-items: baseline;
+}
+
+.news-row:last-child { border-bottom: 1px solid #f0f0f0; }
+
+.news-month {
+  font-size: 0.7rem;
+  color: #ccc;
+  min-width: 2rem;
+  flex-shrink: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.news-text {
+  font-size: 0.86rem;
+  color: #666;
+  line-height: 1.55;
+}
+
+/* ─── Contact ───────────────────────────────────────────────────────── */
+#contact {
+  padding-top: 2rem;
+  scroll-margin-top: 3.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 0;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.contact-link:hover { color: #1a1a1a; }
+
+.contact-link svg { flex-shrink: 0; }
