@@ -98,6 +98,7 @@ section { scroll-margin-top: 3rem; }
 .pub-venue { font-size: .83rem; color: var(--c-faint); margin-bottom: .3rem; }
 .pub-link { font-size: .78rem; color: #aaa; }
 .pub-link:hover { color: var(--c-text); text-decoration: underline; }
+.ext-arrow { vertical-align: -.05em; }
 
 /* ─── News ──────────────────────────────────────────────────────────── */
 .news-year { margin-bottom: 2rem; }
