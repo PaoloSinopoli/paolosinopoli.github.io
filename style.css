@@ -66,17 +66,17 @@ main {
   color: var(--c-text);
   font-weight: 600;
   font-family: var(--sans);
-  margin-bottom: 1.5rem;
+  margin-bottom: .75rem;
 }
 
-.label--sub { margin-bottom: .5rem; letter-spacing: .1em; }
+.label--sub { margin-bottom: .35rem; letter-spacing: .1em; }
 
 /* ─── Site title ────────────────────────────────────────────────────── */
 .site-title {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: -.01em;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* ─── Sections ──────────────────────────────────────────────────────── */
@@ -147,7 +147,7 @@ section { scroll-margin-top: 3rem; }
 
   main { padding-top: 3rem; }
 
-  .site-title { font-size: 1.6rem; margin-bottom: 2.25rem; }
+  .site-title { font-size: 1.6rem; margin-bottom: 1.5rem; }
 
   .nav-inner { gap: 1.25rem; padding: .65rem var(--pad); }
   .nav-inner a { font-size: .72rem; }
