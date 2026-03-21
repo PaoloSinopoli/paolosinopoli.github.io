@@ -87,7 +87,7 @@ main {
 
 /* ─── Sections ──────────────────────────────────────────────────────── */
 section { scroll-margin-top: 3rem; }
-#about, #publications, #news, #resources { margin-bottom: 3.5rem; }
+#about, #publications, #resources { margin-bottom: 3.5rem; }
 
 /* ─── About ─────────────────────────────────────────────────────────── */
 .about-body {
@@ -106,30 +106,6 @@ section { scroll-margin-top: 3rem; }
 .pub-link:hover { color: var(--c-text); text-decoration: underline; }
 .ext-arrow { vertical-align: -.05em; }
 
-/* ─── News ──────────────────────────────────────────────────────────── */
-.news-year { margin-bottom: 2rem; }
-
-.news-row {
-  display: flex;
-  gap: 1.5rem;
-  padding: .5rem 0;
-  border-top: 1px solid var(--c-border);
-  align-items: baseline;
-  font-size: .86rem;
-  color: #555;
-  line-height: 1.55;
-}
-
-.news-row:last-child { border-bottom: 1px solid var(--c-border); }
-
-.news-month {
-  font-size: .7rem;
-  color: #aaa;
-  min-width: 2rem;
-  flex-shrink: 0;
-  font-family: var(--sans);
-  letter-spacing: .02em;
-}
 
 /* ─── Resources ────────────────────────────────────────────────────── */
 .resources-note {
@@ -202,8 +178,7 @@ section { scroll-margin-top: 3rem; }
 
   .about-body { font-size: .85rem; }
 
-  .news-row { gap: .75rem; font-size: .82rem; }
-  .news-month { min-width: 1.75rem; font-size: .65rem; }
+
 
   .contact-links { flex-direction: column; gap: .75rem; }
 }
