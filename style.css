@@ -142,11 +142,11 @@ section { scroll-margin-top: 3rem; }
 .contact-link svg { flex-shrink: 0; }
 
 /* ─── Large screens ────────────────────────────────────────────────── */
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
   :root { --max-w: 860px; }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1920px) {
   :root { --max-w: 1000px; }
 }
 
