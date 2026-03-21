@@ -1,6 +1,6 @@
 /* ─── Custom Properties ─────────────────────────────────────────────── */
 :root {
-  --max-w: 860px;
+  --max-w: 720px;
   --pad: 1.5rem;
   --c-bg: #fff;
   --c-text: #1a1a1a;
@@ -140,6 +140,15 @@ section { scroll-margin-top: 3rem; }
 
 .contact-link:hover { color: var(--c-text); }
 .contact-link svg { flex-shrink: 0; }
+
+/* ─── Large screens ────────────────────────────────────────────────── */
+@media (min-width: 1200px) {
+  :root { --max-w: 860px; }
+}
+
+@media (min-width: 1600px) {
+  :root { --max-w: 1000px; }
+}
 
 /* ─── Mobile ───────────────────────────────────────────────────────── */
 @media (max-width: 600px) {
