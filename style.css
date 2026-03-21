@@ -69,7 +69,13 @@ main {
   margin-bottom: .75rem;
 }
 
-.label--sub { margin-bottom: .35rem; letter-spacing: .1em; }
+.label--sub {
+  font-size: .68rem;
+  margin-bottom: .35rem;
+  letter-spacing: .1em;
+  color: var(--c-muted);
+  font-weight: 500;
+}
 
 /* ─── Site title ────────────────────────────────────────────────────── */
 .site-title {
@@ -135,7 +141,11 @@ section { scroll-margin-top: 3rem; }
 .resources-note a { color: var(--c-faint); text-decoration: underline; }
 .resources-note a:hover { color: var(--c-text); }
 
-.resources-group { margin-bottom: 1.5rem; }
+.resources-group {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--c-border);
+}
 
 .resources-body {
   font-size: .86rem;
