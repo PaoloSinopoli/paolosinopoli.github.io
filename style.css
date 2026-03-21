@@ -143,6 +143,14 @@ section { scroll-margin-top: 3rem; }
   line-height: 1.7;
 }
 
+.resources-file {
+  font-size: .84rem;
+  margin-top: .4rem;
+}
+
+.resources-file a { color: var(--c-faint); text-decoration: underline; }
+.resources-file a:hover { color: var(--c-text); }
+
 /* ─── Contact ──────────────────────────────────────────────────────── */
 #contact { padding-top: 2rem; }
 
