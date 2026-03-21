@@ -1,6 +1,6 @@
 /* ─── Custom Properties ─────────────────────────────────────────────── */
 :root {
-  --max-w: 860px;
+  --max-w: 720px;
   --pad: 1.5rem;
   --c-bg: #fff;
   --c-text: #1a1a1a;
@@ -81,7 +81,7 @@ main {
 
 /* ─── Sections ──────────────────────────────────────────────────────── */
 section { scroll-margin-top: 3rem; }
-#about, #publications, #news { margin-bottom: 3.5rem; }
+#about, #publications, #news, #resources { margin-bottom: 3.5rem; }
 
 /* ─── About ─────────────────────────────────────────────────────────── */
 .about-body {
@@ -125,6 +125,35 @@ section { scroll-margin-top: 3rem; }
   letter-spacing: .02em;
 }
 
+/* ─── Resources ────────────────────────────────────────────────────── */
+.resources-note {
+  font-size: .85rem;
+  color: var(--c-muted);
+  margin-bottom: 1.5rem;
+}
+
+.resources-note a { color: var(--c-faint); text-decoration: underline; }
+.resources-note a:hover { color: var(--c-text); }
+
+.resources-group { margin-bottom: 1.5rem; }
+
+.resources-body {
+  font-size: .86rem;
+  color: var(--c-muted);
+  line-height: 1.7;
+}
+
+.resources-file {
+  font-size: .84rem;
+  margin-top: .4rem;
+}
+
+.resources-file a { color: var(--c-faint); text-decoration: underline; }
+.resources-file a:hover { color: var(--c-text); }
+
+.resources-body a { color: var(--c-faint); text-decoration: underline; }
+.resources-body a:hover { color: var(--c-text); }
+
 /* ─── Contact ──────────────────────────────────────────────────────── */
 #contact { padding-top: 2rem; }
 
@@ -140,6 +169,15 @@ section { scroll-margin-top: 3rem; }
 
 .contact-link:hover { color: var(--c-text); }
 .contact-link svg { flex-shrink: 0; }
+
+/* ─── Large screens ────────────────────────────────────────────────── */
+@media (min-width: 1600px) {
+  :root { --max-w: 860px; }
+}
+
+@media (min-width: 1920px) {
+  :root { --max-w: 1000px; }
+}
 
 /* ─── Mobile ───────────────────────────────────────────────────────── */
 @media (max-width: 600px) {
