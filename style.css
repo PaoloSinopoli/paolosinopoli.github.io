@@ -1,6 +1,6 @@
 /* ─── Custom Properties ─────────────────────────────────────────────── */
 :root {
-  --max-w: 720px;
+  --max-w: 860px;
   --pad: 1.5rem;
   --c-bg: #fff;
   --c-text: #1a1a1a;
@@ -88,7 +88,7 @@ section { scroll-margin-top: 3rem; }
   font-size: .9rem;
   color: var(--c-muted);
   line-height: 1.75;
-  max-width: 64ch;
+  text-align: justify;
 }
 
 /* ─── Publications ──────────────────────────────────────────────────── */
