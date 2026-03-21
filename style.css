@@ -137,6 +137,12 @@ section { scroll-margin-top: 3rem; }
 
 .resources-group { margin-bottom: 1.5rem; }
 
+.resources-body {
+  font-size: .86rem;
+  color: var(--c-muted);
+  line-height: 1.7;
+}
+
 /* ─── Contact ──────────────────────────────────────────────────────── */
 #contact { padding-top: 2rem; }
 
