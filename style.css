@@ -94,7 +94,7 @@ section { scroll-margin-top: 3rem; }
   font-size: .9rem;
   color: var(--c-muted);
   line-height: 1.75;
-  text-align: justify;
+  text-align: left;
 }
 
 /* ─── Publications ──────────────────────────────────────────────────── */
