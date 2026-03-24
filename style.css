@@ -7,19 +7,19 @@
   --c-muted: #444;
   --c-faint: #777;
   --c-border: #f0f0f0;
-  --sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --sans: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 /* ─── Reset & Base ─────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 15px; }
+html { scroll-behavior: smooth; font-size: 17px; }
 
 body {
   min-height: 100vh;
   background: var(--c-bg);
   color: var(--c-text);
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
