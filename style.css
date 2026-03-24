@@ -80,11 +80,10 @@ main {
 /* ─── Site title ────────────────────────────────────────────────────── */
 .site-title {
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -.035em;
   line-height: 1.3;
   margin-bottom: 2rem;
-  color: #3a3a3a;
 }
 
 /* ─── Sections ──────────────────────────────────────────────────────── */
