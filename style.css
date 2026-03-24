@@ -70,11 +70,11 @@ main {
 }
 
 .label--sub {
-  font-size: .68rem;
+  font-size: .72rem;
   margin-bottom: .35rem;
   letter-spacing: .1em;
   color: var(--c-muted);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* ─── Site title ────────────────────────────────────────────────────── */
