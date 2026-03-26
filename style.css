@@ -80,15 +80,11 @@ main {
 /* ─── Site title ────────────────────────────────────────────────────── */
 .site-title {
   font-size: 2.6rem;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.08em;
   line-height: 1.2;
   margin-bottom: 2.25rem;
   text-transform: uppercase;
-}
-
-.first-name {
-  font-weight: 600;
 }
 
 /* ─── Sections ──────────────────────────────────────────────────────── */
