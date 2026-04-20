@@ -139,8 +139,8 @@ main {
 .hero-links svg { flex-shrink: 0; }
 
 .hero-portrait {
-  width: 120px;
-  height: 120px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
@@ -351,8 +351,8 @@ section { scroll-margin-top: 4rem; }
   }
   .hero-text { text-align: center; }
   .hero-portrait {
-    width: 160px;
-    height: 160px;
+    width: 220px;
+    height: 220px;
     order: -1;
     margin: 0 auto;
   }
