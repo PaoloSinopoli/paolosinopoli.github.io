@@ -3,7 +3,7 @@
   --max-w: 760px;
   --pad: 1.5rem;
 
-  /* Light mode palette */
+  /* Palette */
   --c-bg: #ffffff;
   --c-surface: #fafaf7;
   --c-text: #1a1a1a;
@@ -20,25 +20,10 @@
   --radius: 6px;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --c-bg: #111111;
-    --c-surface: #1a1a1a;
-    --c-text: #ededed;
-    --c-muted: #bcbcbc;
-    --c-faint: #888888;
-    --c-border: #2a2a2a;
-    --c-border-strong: #3a3a3a;
-    --c-accent: #e87a7a;
-    --c-accent-soft: #2a1616;
-  }
-}
-
 /* ─── Reset & Base ─────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 17px; }
+html { scroll-behavior: smooth; font-size: 17px; color-scheme: light; }
 
 body {
   min-height: 100vh;
@@ -111,7 +96,6 @@ main {
   align-items: center;
   margin-bottom: 3rem;
   padding-bottom: 0;
-  /* divider intentionally removed */
 }
 
 .hero-text { min-width: 0; }
