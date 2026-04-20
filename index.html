@@ -14,7 +14,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,42 +24,87 @@
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
       <a href="#resources">Resources</a>
-      <a href="#contact">Contact</a>
+      <a href="files/CV_Paolo_Sinopoli.pdf" class="nav-cv" target="_blank" rel="noopener noreferrer">CV ↗</a>
     </div>
   </nav>
 
   <main>
 
-    <h1 class="site-title">Paolo L. Sinopoli</h1>
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-text">
+        <h1 class="site-title">Paolo L. Sinopoli</h1>
+        <p class="site-tagline">
+          Incoming Ph.D. student at MIT<br>
+          Undergraduate researcher at the Ohio State University
+        </p>
+        <div class="hero-links">
+          <a href="mailto:sinopoli@mit.edu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            sinopoli@mit.edu
+          </a>
+          <a href="https://www.linkedin.com/in/paolo-sinopoli/" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <img src="files/portrait.jpg" alt="Paolo L. Sinopoli">
+      </div>
+    </header>
 
     <!-- ABOUT -->
     <section id="about">
       <h2 class="label">About</h2>
-      <p class="about-body">
-        I am an incoming NSF Fellow and Ph.D. student at MIT and an undergraduate researcher at the Ohio State University, where I work with Dr. Anita Hopper to study tRNA biology.
-        Previously, I was a 2025 summer intern at Scripps Research with Dr. Megan Ken &amp; Dr. Jamie Williamson, and a 2024 summer intern at the National Cancer Institute with Dr. Sandy Wolin.
-        I am broadly interested in the fundamental processes that underlie life.<br><br>
-        I am fortunate to be supported by the Barry M. Goldwater Foundation, Pelotonia Cancer Research Foundation, and various institutional funding sources.
-      </p>
+      <div class="about-body">
+        <p>
+          I am an incoming NSF Fellow and Ph.D. student at MIT and an undergraduate researcher at the Ohio State University, where I work with Dr. Anita Hopper to study tRNA biology.
+          Previously, I was a 2025 summer intern at Scripps Research with Dr. Megan Ken &amp; Dr. Jamie Williamson, and a 2024 summer intern at the National Cancer Institute with Dr. Sandy Wolin.
+          I am broadly interested in the fundamental processes that underlie life.
+        </p>
+        <p>
+          I am fortunate to be supported by the Barry M. Goldwater Foundation, Pelotonia Cancer Research Foundation, and various institutional funding sources.
+        </p>
+      </div>
     </section>
 
     <!-- PUBLICATIONS -->
     <section id="publications">
       <h2 class="label">Publications</h2>
-      <div class="pub-list">
-        <article>
-          <p class="pub-title">Many paths to destruction: Family-specific turnover and stress-responses for tRNA introns</p>
-          <p class="pub-authors">Metcalf S, Nostramo RT, Bao A, Clark K, <strong>Sinopoli PL</strong>, Hopper AK</p>
-          <p class="pub-venue">PNAS 2026 &nbsp;·&nbsp; </p>
-          <a class="pub-link" href="https://www.biorxiv.org/content/10.1101/2025.11.19.689297v1" target="_blank" rel="noopener noreferrer">Preprint <svg class="ext-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
-        </article>
-        <article>
-          <p class="pub-title">Free introns of tRNAs as novel complementarity-dependent regulators of gene expression</p>
-          <p class="pub-authors">Nostramo RT, <strong>Sinopoli PL</strong>, Bao A, Metcalf S, Peltier LM, Hopper AK</p>
-          <p class="pub-venue">Molecular Cell 2025 &nbsp;·&nbsp; Featured Article of the Issue</p>
-          <a class="pub-link" href="https://www.cell.com/action/showPdf?pii=S1097-2765%2825%2900053-X" target="_blank" rel="noopener noreferrer">PDF <svg class="ext-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
-        </article>
-      </div>
+      <ol class="pub-list">
+
+        <li class="pub">
+          <div class="pub-marker">2026</div>
+          <div class="pub-body">
+            <p class="pub-title">Many paths to destruction: Family-specific turnover and stress-responses for tRNA introns</p>
+            <p class="pub-authors">Metcalf S, Nostramo RT, Bao A, Clark K, <strong>Sinopoli PL</strong>, Hopper AK</p>
+            <p class="pub-meta">
+              <span class="pub-venue">PNAS 2026</span>
+            </p>
+            <p class="pub-actions">
+              <a class="pub-link" href="https://www.pnas.org/doi/epdf/10.1073/pnas.2537315123" target="_blank" rel="noopener noreferrer">PDF ↗</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub pub--featured">
+          <div class="pub-marker">2025</div>
+          <div class="pub-body">
+            <p class="pub-title">Free introns of tRNAs as novel complementarity-dependent regulators of gene expression</p>
+            <p class="pub-authors">Nostramo RT, <strong>Sinopoli PL</strong>, Bao A, Metcalf S, Peltier LM, Hopper AK</p>
+            <p class="pub-meta">
+              <span class="pub-venue">Molecular Cell 2025</span>
+              <span class="sep">·</span>
+              <span class="pub-badge">Featured Article of the Issue</span>
+            </p>
+            <p class="pub-actions">
+              <a class="pub-link" href="https://www.cell.com/action/showPdf?pii=S1097-2765%2825%2900053-X" target="_blank" rel="noopener noreferrer">PDF ↗</a>
+            </p>
+          </div>
+        </li>
+
+      </ol>
     </section>
 
     <!-- RESOURCES -->
@@ -67,38 +112,18 @@
       <h2 class="label">Resources</h2>
       <p class="resources-note">Inspired to share by <a href="https://jimluzhang.com/" target="_blank" rel="noopener noreferrer">Jim Zhang</a>.</p>
 
-      <div class="resources-group">
-        <h3 class="label label--sub">Graduate School</h3>
-        <p class="resources-body">I interviewed with MIT (Biology), Harvard (BBS), Stanford (Biochemistry), and a few other programs. Here is a representative copy of the statement of purpose I submitted. </p>
-        <p class="resources-file"><a href="files/PLS_SOP_MIT_Biology.pdf" target="_blank" rel="noopener noreferrer">Statement of Purpose (MIT Biology)</a></p>
-      </div>
+      <div class="resources-grid">
+        <article class="resource-card">
+          <h3 class="resource-title">Graduate School</h3>
+          <p class="resource-body">I interviewed with MIT (Biology), Harvard (BBS), Stanford (Biochemistry), and a few other programs. Here is a representative copy of the statement of purpose I submitted.</p>
+          <a class="resource-file" href="files/PLS_SOP_MIT_Biology.pdf" target="_blank" rel="noopener noreferrer">Statement of Purpose (MIT Biology) ↗</a>
+        </article>
 
-      <div class="resources-group">
-        <h3 class="label label--sub">Goldwater Scholarship</h3>
-        <p class="resources-body">Here is the research essay I submitted for the Goldwater Scholarship. </p>
-        <p class="resources-file"><a href="files/2025-Essay-PSinopoli.pdf" target="_blank" rel="noopener noreferrer">Goldwater Scholarship</a></p>
-      </div>
-
-      <div class="resources-group">
-        <h3 class="label label--sub">CV</h3>
-        <p class="resources-body">I made my CV on Google Docs. Here is my current CV, which mirrors the format I used throughout my applications.</p>
-        <p class="resources-file"><a href="files/CV_Paolo_Sinopoli.pdf" target="_blank" rel="noopener noreferrer">CV</a></p>
-      </div>
-
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact">
-      <h2 class="label">Contact</h2>
-      <div class="contact-links">
-        <a class="contact-link" href="mailto:sinopoli@mit.edu">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-          sinopoli@mit.edu
-        </a>
-        <a class="contact-link" href="https://www.linkedin.com/in/paolo-sinopoli/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-          LinkedIn
-        </a>
+        <article class="resource-card">
+          <h3 class="resource-title">Goldwater Scholarship</h3>
+          <p class="resource-body">Here is the research essay I submitted for the Goldwater Scholarship.</p>
+          <a class="resource-file" href="files/2025-Essay-PSinopoli.pdf" target="_blank" rel="noopener noreferrer">Goldwater Scholarship Research Essay ↗</a>
+        </article>
       </div>
     </section>
 
