@@ -351,8 +351,8 @@ section { scroll-margin-top: 4rem; }
   }
   .hero-text { text-align: center; }
   .hero-portrait {
-    width: 220px;
-    height: 220px;
+    width: 160px;
+    height: 160px;
     order: -1;
     margin: 0 auto;
   }
