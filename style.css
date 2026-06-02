@@ -86,6 +86,7 @@ main {
 /* Nudge specific icons up so their bottoms line up with the text bottom */
 .icon--linkedin { transform: translateY(-0.18em); }
 .icon--cv { transform: translateY(-0.1em); }
+.icon--mail { transform: translateY(-0.05em); }
 
 /* ─── Mobile ────────────────────────────────────────────────────────── */
 @media (max-width: 640px) {
