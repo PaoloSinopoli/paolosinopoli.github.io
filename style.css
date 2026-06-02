@@ -31,9 +31,12 @@ a {
 }
 
 /* ─── Layout ────────────────────────────────────────────────────────── */
+/* Lock the page to a single screen — no scrolling on mobile or desktop */
+html, body { height: 100%; overflow: hidden; }
+
 main {
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 100vh;        /* fallback */
+  height: 100dvh;       /* tracks the visible viewport as mobile bars show/hide */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,15 +66,31 @@ main {
 
 .links a {
   color: var(--c-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+.links a span {
   border-bottom: 1px solid transparent;
   padding-bottom: 1px;
 }
-.links a:hover { color: var(--c-accent); border-bottom-color: var(--c-accent); }
+.links a:hover { color: var(--c-accent); }
+.links a:hover span { border-bottom-color: var(--c-accent); }
+
+.icon {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
 
 /* ─── Mobile ────────────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   .site-title { font-size: 2rem; }
-  .links { gap: 1.1rem; font-size: .9rem; }
+  .links {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
